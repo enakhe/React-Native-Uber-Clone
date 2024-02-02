@@ -12,14 +12,14 @@ const DestinationSearch = ({navigation}) => {
     const [originPlace, setOriginPlace] = useState(null);
     const [destinationPlace, setDestinationPlace] = useState(null);
 
-    useEffect(() => {
-        if(originPlace && destinationPlace) {
-            navigation.navigate('SearchResult', {
-                originPlace,
-                destinationPlace,
-            });
-        }
-    }, [originPlace, destinationPlace])
+    // useEffect(() => {
+    //     if(originPlace && destinationPlace) {
+    //         navigation.navigate('SearchResult', {
+    //             originPlace,
+    //             destinationPlace,
+    //         });
+    //     }
+    // }, [originPlace, destinationPlace])
 
     return (
         <View style={styles.container}>
