@@ -83,7 +83,7 @@ function App(): React.JSX.Element {
         <>
             <NavigationContainer>
                 <Stack.Navigator initialRouteName="HomeScreen">
-                    <Stack.Screen
+                    {/* <Stack.Screen
                         name="HomeScreen"
                         options={{
                             headerShown: false,
@@ -92,7 +92,7 @@ function App(): React.JSX.Element {
                         {(props) => (
                             <HomeScreen {...props} position={position} />
                         )}
-                    </Stack.Screen>
+                    </Stack.Screen> */}
 
                     <Stack.Screen
                         name="Signup"
