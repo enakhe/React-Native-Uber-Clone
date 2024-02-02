@@ -8,7 +8,7 @@ import styles from './Styles';
 const HomeScreen = ({navigation, position}) => {
     return (
         <View>
-            <HomeMap position={position} />
+            {/* <HomeMap position={position} /> */}
             <View style={styles.content}>
                 <CovidMessage />
                 <HomeSearch navigation={navigation} />
