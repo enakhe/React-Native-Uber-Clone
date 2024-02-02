@@ -8,7 +8,7 @@ const Signup = ({navigation}) => {
         <SafeAreaView style={styles.container}>
             {/* <ScrollView contentContainerStyle={styles.contentContainer}>
             </ScrollView> */}
-            <Login navigation={navigation} />
+            {/* <Login navigation={navigation} /> */}
         </SafeAreaView>
     );
 };
