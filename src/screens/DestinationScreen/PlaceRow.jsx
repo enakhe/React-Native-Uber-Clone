@@ -3,22 +3,29 @@ import {ScrollView, StyleSheet, Text, View} from 'react-native';
 import Entypo from 'react-native-vector-icons/Entypo';
 
 const PlaceRow = ({data}) => {
-    console.log(data);
     return (
         <View style={styles.row}>
             <View style={styles.iconContainer}>
                 <Entypo name="location-pin" size={20} color="white" />
             </View>
-            <View>
-                <Text style={styles.locationText}>
-                    {data.description}
-                </Text>
-                <Text style={styles.locationDesText}>
-                    {data
-                        ? data.vicinity
-                        : data.structured_formatting.secondary_text}
-                </Text>
-            </View>
+            {data.vicinity !== null ? (
+                <View>
+                    <Text style={styles.locationText}>
+                        {data.vicinity !== null
+                            ? data.vicinity
+                            : ""}
+                    </Text>
+                </View>
+            ) : (
+                <View>
+                    <Text style={styles.locationText}>
+                        {data.structured_formatting.main_text}
+                    </Text>
+                    <Text style={styles.locationDesText}>
+                        {data.structured_formatting.secondary_text}
+                    </Text>
+                </View>
+            )}
         </View>
     );
 };

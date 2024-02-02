@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {Text, TextInput, View} from 'react-native';
+import {ScrollView, Text, TextInput, View} from 'react-native';
 import styles from './Styles';
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 import Geolocation from 'react-native-geolocation-service';
@@ -40,12 +40,12 @@ const DestinationSearch = ({navigation}) => {
                         left: 10,
                         right: 10,
                     },
-                    
+
                     listView: {
                         position: 'absolute',
                         top: 105,
                     },
-                    
+
                     separator: styles.separator,
                 }}
                 fetchDetails

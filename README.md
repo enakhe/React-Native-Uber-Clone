@@ -85,9 +85,9 @@ Email: enakheprogramming@gmail.com
 ## Issues & Bugs
 
 ```
-There are known bugs in getting the current user location on the home screen map.
-
-If you encounter any issues or have feedback, please open an issue on GitHub. We welcome your input!
+There are known bugs 
+1. Getting the current user location on the home screen map
+2. Current location placeholder isn't displaying
 ```
 
 ## Licence
