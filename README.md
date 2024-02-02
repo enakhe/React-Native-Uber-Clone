@@ -1,13 +1,48 @@
 # Uber Clone
 
-> This is a react native application that follows the same apprach to the Uber and Bolt mobile application. The application has been developed to it's MVP where a user can search for his destination and see through the map the path to his destination
+## Overview
+> This React Native application is crafted with inspiration from popular ride-sharing platforms like Uber and Bolt. Designed to be intuitive and efficient, the project has reached its Minimum Viable Product (MVP) stage, offering users a seamless experience in navigating and visualizing their routes.
 
-## Technologies Used
-1. React Native
-2. JavaScript
-3. React Nativation
-4. React Functional Components
-5. React Hooks
-6. Vector Icons
-7. Google Maps
+## Technologies
+> 1. React Native (CLI)
+> 2. JavaScript
+> 3. React Nativation
+> 4. React Functional Components
+> 5. React Hooks
+> 6. Vector Icons
+> 7. Google Maps
 
+## Features
+```
+1. User-Friendly Interface:
+The app boasts an intuitive UI, ensuring a smooth and enjoyable user experience. Easy navigation and clear visuals make it accessible for users of all tech levels.
+
+2. Map Integration:
+Utilizes map functionalities to display routes and destination points.
+Real-time updates provide users with dynamic and accurate navigation assistance.
+
+3. Destination Search:
+Empowers users to search for their desired destination effortlessly.
+Autocomplete suggestions and geolocation make the process quick and convenient.
+
+4. Route Visualization:
+Once a destination is selected, the app dynamically showcases the optimal route on the map. Users can visualize the path, helping them plan their journey more effectively.
+
+5. Geolocation Services:
+Leveraging React Native's capabilities, the app harnesses geolocation services for precise location tracking. Ensures accurate and real-time updates for both users and drivers.
+```
+
+## Future Roadmap:
+```
+1. Enhanced User Profiles:
+Implement user profiles with personalized settings and ride history.
+
+2. Ride Booking and Payment:
+Integrate features for users to book rides and facilitate seamless in-app payments.
+
+3. Driver Features:
+Develop functionality for drivers to accept/reject ride requests and view their earnings.
+
+4. User Authentication:
+
+Strengthen security with user authentication for a personalized and secure experience.
